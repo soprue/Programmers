@@ -1,3 +1,5 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/120815
+
 function solution(n) {
     const gcdFunc = (a, b) => a % b == 0 ? b : gcdFunc(b, a % b);
     let gcd = gcdFunc(n, 6);
