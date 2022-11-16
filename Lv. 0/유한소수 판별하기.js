@@ -15,8 +15,7 @@ function getGCD(a, b) {
 function solution(a, b) {
     if(a % b == 0) return 1;
     
-    let answer = 1;
-    
+    // 기약분수를 만들기 위해 a와 b의 최대공약수로 약분
     let gcd = getGCD(a, b);
     let botNum = b / gcd;
     
