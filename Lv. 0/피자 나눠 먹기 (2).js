@@ -6,7 +6,7 @@
 // 최소 몇 판을 시켜야 하는지를 return 하도록 solution 함수를 완성해보세요.
 
 
-
+ 
 function solution(n) {
     const gcdFunc = (a, b) => a % b == 0 ? b : gcdFunc(b, a % b);
     let gcd = gcdFunc(n, 6);
